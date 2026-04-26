@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Grant Finder</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; padding: 1rem; }
+    .grant { border: 1px solid #ddd; padding: 1rem; margin: 1rem 0; border-radius: 8px; }
+    .tag { background: #e8f4f8; padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+    h2 { color: #5c1b1b; }
+  </style>
+</head>
+<body>
+  <h1>Grant Finder — Exercise & Vascular Health</h1>
+  <p id="updated"></p>
+  <div id="grants"></div>
+  <script>
+    fetch('grants.json').then(r => r.json()).then(data => {
+      document.getElementById('updated').textContent = 'Last updated: ' + data.updated;
+      data.results.forEach(g => {
+        document.getElementById('grants').innerHTML += `
+          <div class="grant">
+            <h2><a href="${g.link}" target="_blank">${g.title || 'Untitled'}</a></h2>
+            <span class="tag">${g.agency}</span>
+            <span class="tag">Match: ${g.keyword_match}</span>
+            ${g.deadline ? `<span class="tag">Deadline: ${g.deadline}</span>` : ''}
+            ${g.amount ? `<span class="tag">$${g.amount.toLocaleString()}</span>` : ''}
+          </div>`;
+      });
+    });
+  </script>
+</body>
+</html>
