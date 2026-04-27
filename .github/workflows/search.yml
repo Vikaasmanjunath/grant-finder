@@ -15,10 +15,11 @@ jobs:
           python-version: '3.11'
       - run: pip install requests beautifulsoup4
       - run: python .github/scripts/search_grants.py
-      - name: Commit results
+     - name: Commit results
         run: |
           git config user.email "grants-bot@github.com"
           git config user.name "Grant Bot"
+          git pull --rebase origin main
           git add docs/
           git commit -m "Weekly grant update $(date +%F)" || echo "No changes"
           git push
