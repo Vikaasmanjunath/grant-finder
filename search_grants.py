@@ -88,6 +88,8 @@ def save_results(new_grants):
         return
 
     df = pd.DataFrame(new_grants)
+
+    # filter + sort
     df = df[df["score"] >= 4]
     df = df.sort_values("score", ascending=False)
 
@@ -111,30 +113,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-import requests
-import pandas as pd
-
-# 👉 ADD THIS RIGHT HERE
-def score_grant(text):
-    text = text.lower()
-
-    keywords = [
-        "exercise",
-        "cardiovascular",
-        "physical activity",
-        "rehabilitation",
-        "vascular",
-        "disability",
-        "predoctoral",
-        "fellowship",
-        "pilot",
-        "seed"
-    ]
-
-    score = 0
-
-    for word in keywords:
-        if word in text:
-            score += 1
-
-    return score
