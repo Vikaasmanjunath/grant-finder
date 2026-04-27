@@ -1,0 +1,24 @@
+name: Weekly Grant Search
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'   # Every Monday at 8am UTC
+  workflow_dispatch:        # Also lets you run it manually
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python .github/scripts/search_grants.py
+      - name: Commit results
+        run: |
+          git config user.email "grants-bot@github.com"
+          git config user.name "Grant Bot"
+          git add docs/
+          git commit -m "Weekly grant update $(date +%F)" || echo "No changes"
+          git push
