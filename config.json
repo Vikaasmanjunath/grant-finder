@@ -1,10 +1,12 @@
 {
   "keywords": [
-    "arterial stiffness", "pulse wave velocity", "endothelial function",
+    "exercise physiology","cardiovascular health","arterial stiffness", "pulse wave velocity", "endothelial function",
     "exercise intervention", "cardiovascular fitness", "vascular health",
     "carotid intima-media thickness", "physical activity", "sedentary behavior"
   ],
   "exclude_keywords": ["pediatric", "cancer", "oncology"],
-  "min_amount": 5000,
+  "min_amount": 1000,
   "agencies": ["NIH", "NSF", "ACSM", "AHA"]
 }
+
+
