@@ -2,539 +2,133 @@
   "updated": "2026-04-27",
   "results": [
     {
-      "title": "Arterial Stiffness, Cognition, and Equol (ACE)",
-      "agency": "NIH",
-      "amount": 1695875,
-      "pi": "AKIRA  SEKIKAWA",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11295480"
-    },
-    {
-      "title": "SGLT2 inhibition as a therapeutic strategy to reverse arterial stiffening in aging",
-      "agency": "NIH",
-      "amount": 603556,
-      "pi": "Camila Margarita  Manrique Acevedo",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11303248"
-    },
-    {
-      "title": "Stent-based sensor system for continuous monitoring of mechanical biomarkers during vascular diseases",
-      "agency": "NIH",
-      "amount": 143201,
-      "pi": "Robert  Herbert",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11288984"
-    },
-    {
-      "title": "Neutrophils play a pivotal role in vascular aging",
-      "agency": "NIH",
-      "amount": 526476,
-      "pi": "Zhen Yue Jiang",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11296889"
-    },
-    {
-      "title": "Epithelial sodium channels in endothelial cells and arterial stiffening",
-      "agency": "NIH",
-      "amount": 484616,
-      "pi": "Michael A HILL",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11302705"
-    },
-    {
-      "title": "Measuring arterial material properties using wave-based approaches with ultrasound and computational models",
-      "agency": "NIH",
-      "amount": 667146,
-      "pi": "Matthew William Urban",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11292400"
-    },
-    {
-      "title": "Common mechanistic biomarkers of vascular and neuro-degeneration",
-      "agency": "NIH",
-      "amount": 766071,
-      "pi": "YONGMEI  LIU",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11251616"
-    },
-    {
-      "title": "Obstructive Sleep Apnea and Associated Pathologic Cardiovascular Phenotypes in Young Individuals: A Comprehensive and Longitudinal Analysis of At-Risk College-Aged Students",
-      "agency": "NIH",
-      "amount": 597542,
-      "pi": "Jonathan Ho-Youn Kim",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11298990"
-    },
-    {
-      "title": "Dose-response to resistance exercise on cardiovascular health",
-      "agency": "NIH",
-      "amount": 689871,
-      "pi": "Duck-chul  Lee",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11250993"
-    },
-    {
-      "title": "Quantitative cerebral blood vessel imaging biomarkers for AD and VCID",
-      "agency": "NIH",
-      "amount": 791783,
-      "pi": "HELENA Chang CHUI",
-      "keyword_match": "arterial stiffness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11372800"
-    },
-    {
-      "title": "Cardiovascular Phenotyping Core B",
-      "agency": "NIH",
-      "amount": 313359,
-      "pi": "DAVID M POLLOCK",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11262242"
-    },
-    {
-      "title": "Heart-brain MRI for the evaluation of hemodynamic coupling in aging and Alzheimer's disease",
-      "agency": "NIH",
-      "amount": 124065,
-      "pi": "Kelly Brooke Jarvis",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11237111"
-    },
-    {
-      "title": "Early Life Stress Induced Reprogramming of Vascular Function by the Endothelium and Macrophage Systems",
-      "agency": "NIH",
-      "amount": 313358,
-      "pi": "Jennifer S Pollock",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11262249"
-    },
-    {
-      "title": "Olfactory Receptor 558 (OLFR558) Ligands and Blood Pressure Regulation",
-      "agency": "NIH",
-      "amount": 682353,
-      "pi": "Jennifer L Pluznick",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11251307"
-    },
-    {
-      "title": "Extracellular Vesicles, Insulin Action and Exercise on Vascular Function in Type 2 Diabetes",
-      "agency": "NIH",
-      "amount": 688673,
-      "pi": "Uta  Erdbruegger",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11311889"
-    },
-    {
-      "title": "Children\u2019s Cardiovascular Health and the Impacts of Heat Stress and Wildfire Smoke",
-      "agency": "NIH",
-      "amount": 669373,
-      "pi": "Shohreh F Farzan",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11262924"
-    },
-    {
-      "title": "Cortical-hypothalamic control of the cardiovascular consequences of stress",
-      "agency": "NIH",
-      "amount": 82540,
-      "pi": "Courtney Anne Bouchet",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11247097"
-    },
-    {
-      "title": "Cardiovascular Risk, Vascular and Kidney Damage in COVID-19 Survivors",
-      "agency": "NIH",
-      "amount": 737758,
-      "pi": "JULIO ALONSO CHIRINOS MEDINA",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11239778"
-    },
-    {
-      "title": "SMART-2D: Study of Montelukast's Effects on Renal and Cardiovascular Health in Adolescents and Young Adults with Type 2 Diabetes",
-      "agency": "NIH",
-      "amount": 193075,
-      "pi": "Angelina  Dixon",
-      "keyword_match": "pulse wave velocity",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11283130"
-    },
-    {
-      "title": "LRRC8 complex regulation of endothelial function",
-      "agency": "NIH",
-      "amount": 538786,
-      "pi": "Abhinav  Diwan",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11292870"
-    },
-    {
-      "title": "CaMKII and Endothelial SK Channel Function in Diabetic Coronary Microcirculation",
-      "agency": "NIH",
-      "amount": 615726,
-      "pi": "Jun  Feng",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11242006"
-    },
-    {
-      "title": "Modifying endothelial Piezo 1 function to improve brain perfusion in AD/ADRD",
-      "agency": "NIH",
-      "amount": 682211,
-      "pi": "Sean P Marrelli",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11300975"
-    },
-    {
-      "title": "Deciphering molecular mechanisms that underlie brain endothelial cell dysfunction with APOE4",
-      "agency": "NIH",
-      "amount": 801648,
-      "pi": "Leon Maing Tai",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11305287"
-    },
-    {
-      "title": "Perivascular macrophages - a new player in regulating endothelial repair following lung vascular injury",
-      "agency": "NIH",
-      "amount": 456941,
-      "pi": "Bisheng  Zhou",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11303456"
-    },
-    {
-      "title": "Niche-specific endothelial mechanisms regulating the extravasation of hematopoietic stem cells",
-      "agency": "NIH",
-      "amount": 705410,
-      "pi": "Elliott Jennings Hagedorn",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11325781"
-    },
-    {
-      "title": "MyomiR-499, Exosomes and Endothelial and Endothelial Progenitor Cells dysfunction in Diabetes",
-      "agency": "NIH",
-      "amount": 604441,
-      "pi": "Raj  Kishore",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11307624"
-    },
-    {
-      "title": "Basolateral brain endothelial cilia and its role in promoting vascular stability",
-      "agency": "NIH",
-      "amount": 635206,
-      "pi": "Ramani  Ramchandran",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11325088"
-    },
-    {
-      "title": "Impact of obesity on microvascular insulin action and cardiorespiratory fitness in Type 1 Diabetes",
-      "agency": "NIH",
-      "amount": 782459,
-      "pi": "ZHENQI  LIU",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11297591"
-    },
-    {
-      "title": "MEOX2: A Critical Regulator of Alveolar Fibroblast Function",
-      "agency": "NIH",
-      "amount": 707389,
-      "pi": "Anne-Karina Theresia Perl",
-      "keyword_match": "endothelial function",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11333330"
-    },
-    {
-      "title": "Health promotion with targeted exercise intervention for decreasing fall risk and inactivity in aging Veterans with obesity and signs of sarcopenia",
-      "agency": "NIH",
-      "amount": null,
-      "pi": "Julie  Rekant",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11240962"
-    },
-    {
-      "title": "HEART Camp Connect: Promoting Adherence to Exercise in Adults with Heart Failure with Preserved Ejection Fraction",
-      "agency": "NIH",
-      "amount": 658359,
-      "pi": "Windy Williams Alonso",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11325002"
-    },
-    {
-      "title": "Telehealth to Improve Functional Status and Quality of Life in Veterans with PAD",
-      "agency": "NIH",
-      "amount": null,
-      "pi": "Jorge Antonio Antonio Gutierrez",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11365624"
-    },
-    {
-      "title": "Development of a Power Training Program to Improve Mobility in Older Veterans",
-      "agency": "NIH",
-      "amount": null,
-      "pi": "Mattie  Pontiff",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11240591"
-    },
-    {
-      "title": "Expanding Exercise Programming for Veterans Through Telehealth",
-      "agency": "NIH",
-      "amount": null,
-      "pi": "LAUREN M ABBATE",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11193217"
-    },
-    {
-      "title": "What makes a responder, a responder? Biomarkers to help identify responders and resistors to high-intensity interval training for lower extremity chronic stroke",
-      "agency": "NIH",
-      "amount": null,
-      "pi": "Lisa C. Krishnamurthy",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11306586"
-    },
-    {
-      "title": "Supportive Tailored Exercise Program for Survivors of Breast Cancer (STEPS-BC)",
-      "agency": "NIH",
-      "amount": 640396,
-      "pi": "William Gregory Hundley",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11269209"
-    },
-    {
-      "title": "Improving Cognition Through Telehealth Aerobic Exercise and Cognitive Training After a First Schizophrenia Episode",
-      "agency": "NIH",
-      "amount": 1273365,
-      "pi": "KEITH H NUECHTERLEIN",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11306042"
-    },
-    {
-      "title": "Telemedicine intervention in patients with chronic pain in PD",
-      "agency": "NIH",
-      "amount": null,
-      "pi": "DAVID W. SPARROW",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11360814"
-    },
-    {
-      "title": "A Remotely Delivered Tai Ji Quan Intervention to Reduce Incidence of Falls in High Risk Community-Dwelling Older Adults",
-      "agency": "NIH",
-      "amount": 666036,
-      "pi": "FUZHONG  LI",
-      "keyword_match": "exercise intervention",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11056771"
-    },
-    {
-      "title": "Promoting Physical Activity and Fitness Among Underserved Latino Families Living in U.S.-Mexico Border Regions",
-      "agency": "NIH",
-      "amount": 100000,
-      "pi": "Noe Cuauhtemoc Crespo",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11469160"
-    },
-    {
-      "title": "Promoting Physical Activity and Fitness Among Underserved Latino Families Living in U.S.-Mexico Border Regions",
-      "agency": "NIH",
-      "amount": 477487,
-      "pi": "Noe Cuauhtemoc Crespo",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11257733"
-    },
-    {
-      "title": "Heterozygous SERPINE1 Deficiency Confers Durable Cardiovascular Fitness in Humans",
-      "agency": "NIH",
-      "amount": 1027909,
-      "pi": "Douglas E Vaughan",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11253310"
-    },
-    {
-      "title": "Proteomic Profiling of Precise Exercise Pathophenotypes Across the HFpEF Spectrum",
-      "agency": "NIH",
-      "amount": 1377666,
-      "pi": "Gregory Dyer Lewis",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11352522"
-    },
-    {
-      "title": "Modified cardiac rehabilitation to enhance post-stroke physical and psychosocial function: does despression limit the response?",
-      "agency": "NIH",
-      "amount": 477309,
-      "pi": "Ryan  Ross",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11262869"
-    },
-    {
-      "title": "MIND Foods and Aerobic Training in Black Adults with HTN: An ADRD Prevention Pilot RCT (MAT)",
-      "agency": "NIH",
-      "amount": 618366,
-      "pi": "DANIEL O CLARK",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11311336"
-    },
-    {
-      "title": "Diversity generation in the gastrointestinal microbiome",
-      "agency": "NIH",
-      "amount": 170492,
-      "pi": "Benjamin  Macadangdang",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11235151"
-    },
-    {
-      "title": "Mentoring and Patient-Oriented Research in Integrative Medicine",
-      "agency": "NIH",
-      "amount": 139701,
-      "pi": "GLORIA Y YEH",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11303336"
-    },
-    {
-      "title": "Smooth muscle O-GlcNAcylation and vascular aging in metabolic syndrome",
-      "agency": "NIH",
-      "amount": 611680,
-      "pi": "Priya  Raman",
-      "keyword_match": "cardiovascular fitness",
-      "deadline": "",
-      "link": "https://reporter.nih.gov/project-details/11277437"
-    },
-    {
       "title": "See investigator-initiated research opportunities",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org#open"
     },
     {
       "title": "See data science grant funding",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org#datagrants"
     },
     {
       "title": "Career Development Award",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/career-development-award"
     },
     {
       "title": "AHA/VIVA Physician Research Award",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://viva-foundation.org/research"
     },
     {
       "title": "AHA Predoctoral Fellowship",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship"
     },
     {
       "title": "AHA/CHF Congenital Heart Defect Research Awards",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://www.childrensheartfoundation.org/"
     },
     {
       "title": "AHA Postdoctoral Fellowship",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/postdoctoral-fellowship"
     },
     {
       "title": "Institutional Award for Undergraduate Student Training",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/institutional-award-for-undergraduate-student-training"
     },
     {
       "title": "AHA Institutional Research Enhancement Award (AIREA)",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/aha-institutional-research-enhancement-award-airea"
     },
     {
       "title": "International Visiting Professorship Award",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/international-visiting-professorship-award"
     },
     {
       "title": "Innovative Project Award",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/innovative-project-award"
     },
     {
       "title": "Rapid Impact Research Award",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://professional.heart.org/en/research-programs/aha-funding-opportunities/rapid-impact-research-award"
     },
     {
       "title": "Scientific researchers awarded $15 million to study heart valve disease",
       "agency": "AHA",
-      "amount": 0,
       "deadline": "",
+      "status": "Check website",
+      "amount": 0,
       "keyword_match": "grant/fellowship",
+      "source": "AHA",
       "link": "https://newsroom.heart.org/news/scientific-researchers-awarded-15-million-to-study-heart-valve-disease"
     }
   ]
