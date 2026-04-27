@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grant Finder - Exercise & Vascular Health</title>
+  <style>
+    body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; padding: 1rem; background: #f9f9f9; }
+    h1 { color: #5c1b1b; }
+    .grant { background: white; border: 1px solid #ddd; padding: 1rem; margin: 1rem 0; border-radius: 8px; }
+    .grant h2 { margin: 0 0 8px; font-size: 16px; }
+    .grant h2 a { color: #1a0dab; text-decoration: none; }
+    .grant h2 a:hover { text-decoration: underline; }
+    .tag { background: #e8f4f8; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 4px; }
+    .agency { background: #5c1b1b; color: white; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 4px; }
+    #search { width: 100%; padding: 8px; margin: 1rem 0; border: 1px solid #ddd; border-radius: 6px; font-size: 15px; }
+    #count { color: #666; font-size: 14px; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Grant Finder — Exercise & Vascular Health</h1>
+  <p id="updated"></p>
+  <input type="text" id="search" placeholder="Search by keyword, agency, title...">
+  <p id="count"></p>
+  <div id="grants"></div>
+  <script>
+    let allGrants = [];
+
+    fetch('grants.json').then(r => r.json()).then(data => {
+      allGrants = data.results;
+      document.getElementById('updated').textContent = 'Last updated: ' + data.updated;
+      renderGrants(allGrants);
+    }).catch(() => {
+      document.getElementById('grants').innerHTML = '<p>Results not loaded yet — run the workflow first.</p>';
+    });
+
+    function renderGrants(grants) {
+      document.getElementById('count').textContent = grants.length + ' grants found';
+      document.getElementById('grants').innerHTML = grants.map(g => `
+        <div class="grant">
+          <h2><a href="${g.link}" target="_blank">${g.title || 'Untitled'}</a></h2>
+          <span class="agency">${g.agency}</span>
+          <span class="tag">Match: ${g.keyword_match}</span>
+          ${g.deadline ? `<span class="tag">Deadline: ${g.deadline}</span>` : ''}
+          ${g.amount ? `<span class="tag">$${g.amount.toLocaleString()}</span>` : ''}
+        </div>`).join('');
+    }
+
+    document.getElementById('search').addEventListener('input', function() {
+      const q = this.value.toLowerCase();
+      renderGrants(allGrants.filter(g =>
+        (g.title || '').toLowerCase().includes(q) ||
+        (g.agency || '').toLowerCase().includes(q) ||
+        (g.keyword_match || '').toLowerCase().includes(q)
+      ));
+    });
+  </script>
+</body>
+</html>
